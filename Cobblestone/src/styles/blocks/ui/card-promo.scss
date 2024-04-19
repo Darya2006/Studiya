@@ -1,0 +1,23 @@
+.card-promo_tall{
+    display: flex;
+    flex-direction: column;
+    //position: relative;
+    border-radius: 1rem;
+    background-color: $bg-terteriary-subdued-40;
+    max-width: 24.9rem;
+    width: 100%;
+    box-sizing: border-box;
+    img{
+        border-radius: 1rem;
+    }
+    &__text{
+        max-width: 16rem;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 115%;
+        letter-spacing: -0.06rem;
+        color: $text-accent;
+        padding: 2rem;
+    }
+}

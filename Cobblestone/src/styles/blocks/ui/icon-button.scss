@@ -1,0 +1,16 @@
+.icon-button{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border-radius: 8px;
+    background: $bg-primary;
+    &:active{
+        background: $bg-accent;
+    }
+    &:hover{
+        background: $bg-accent;
+    }
+    &_disabled{
+        background: $bg-terteriary-subdued-40;
+    }
+}

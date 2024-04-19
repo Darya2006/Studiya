@@ -1,0 +1,74 @@
+// .button-variants{
+//     &__size{
+//         .size-large{
+//             &_static{
+//                 background-color: $bg-accent-subdued-80;
+//             }
+//         }
+//     }
+// }
+// .static{
+//     background-color: $bg-accent-subdued-80;
+// }
+.button{
+    border-radius: 8px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    @include button_2;
+    color: $text-inverse;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &_size{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        &_large{
+            padding: 1.25rem;
+        }
+        &_basic{
+            padding: 12px 20px;
+        }
+        &_small{
+            padding: 16px;
+        }
+        .loading{
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+    &_color{
+        &_subdued{
+            background-color: $bg-accent-subdued-80;
+        }
+        &_accent{
+            background-color: $bg-accent;
+        }
+        &_subdued40{
+            background-color: $bg-accent-subded-40;
+        }
+        &_subdued40{
+            background-color: $bg-accent-subded-40;
+        }
+    }
+    &_ghost{
+        &_subdued{
+            color: $bg-accent-subdued-80;
+            background: none;
+        }
+        &_accent{
+            color: $bg-accent;
+            background: none;
+        }
+        &_subdued40{
+            color: $bg-accent-subded-40;
+            background: none;
+        }
+        &_subdued40{
+            color: $bg-accent-subded-40;
+            background: none;
+        }
+    }
+}

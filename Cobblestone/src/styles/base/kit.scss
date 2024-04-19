@@ -1,0 +1,161 @@
+
+
+$Graphite: #262626;
+$White: #FFFFFF;
+$PearlBush: #E8E1D7;
+$Tussock: #BF8B41;
+
+$bg-primary: #FFFFFF;
+$bg-inverse: #262626;
+$bg-terteriary: #1C1917;
+$bg-accent: #BF8B41;
+
+$bg-inverse-subdued-40: #A8A8A8;
+$bg-terteriary-subdued-40: #F6F3EF;
+$bg-accent-subdued-80: #CCA267;
+$bg-accent-subdued-40-disabled: #E5D1B3;
+
+$text-primary: #262626;
+$text-inverse: #FFFFFF;
+$text-accent: #BF8B41;
+
+$text-primary-subdued-40: #E5D1B3;
+$bg-accent-subded-40: color-mix(in srgb, $bg-primary 60%, $text-primary-subdued-40 100%);
+$text-accent-subdued-40: #A8A8A8;
+$text-accent-subdued-20: #D4D4D4;
+$text-terteriary-transparent-60-disabled: rgba(255, 255, 255, 0.60);
+$texttext-accent-transparent-40: rgba(38, 38, 38, 0.40);
+
+$icon-primary: #BF8B41;
+$icon-inverse: #1C1917;
+$icon-terteriary: #FFFFFF;
+
+$icon-inverse-subdued-40: #A8A8A8;
+$icon-primary-subdued-40: #E5D1B3;
+$icon-terteriary-transparent-60-disabled: rgba(255, 255, 255, 0.60);
+
+$border-primary: #262626;
+$border-accent: #BF8B41;
+
+$border-primary-subdued-20: #D4D4D4;
+$border-primary-subdued-10: #E9E9E9;
+
+@mixin heading_1{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.18em;
+    @include mobile {
+        font-size: 3rem;
+        letter-spacing: -0.09em;
+    }
+}
+
+@mixin heading_2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.09em;
+    @include mobile {
+        font-size: 2rem;
+        line-height: 90%;
+        letter-spacing: -0.06em;
+    }
+}
+
+@mixin heading_3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 115%;
+    letter-spacing: -0.06rem;
+    @include mobile {
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 110%;
+        letter-spacing: -0.025rem;
+    }
+}
+@mixin text_1{
+    font-size: 1.5rem;
+    font-weight: 450;
+    line-height: 121%;
+    letter-spacing: -0.045rem;
+    @include mobile {
+        font-size: 1rem;
+        line-height: 130%;
+        letter-spacing: -0.02rem;
+    }
+}
+
+@mixin text_2{
+    font-size: 1.25rem;
+    font-weight: 450;
+    line-height: 130%;
+    letter-spacing: -0.025rem;
+    @include mobile {
+        font-size: 0.875rem;
+        line-height: 130%;
+        letter-spacing: -0.00875rem;
+    }
+}
+
+@mixin button_1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.03rem;
+    @include mobile {
+        font-size: 1rem;
+        line-height: 130%;
+        letter-spacing: -0.02rem;
+    }
+}
+
+@mixin button_2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.025rem;
+    @include mobile {
+        font-size: 0.875rem;
+        line-height: 130%;
+        letter-spacing: -0.00875rem;
+    }
+}
+
+@mixin description{
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 130%;
+    letter-spacing: -0.01rem;
+    @include mobile {
+        font-size: 0.75rem;
+        letter-spacing: -0.0075rem;
+    }
+}
+
+@mixin border{
+    border: 1rem;
+    @include mobile {
+        border: 0.5rem;
+    }
+}
+
+.mt-8 {
+    margin-top: 8rem;
+}
+.mt-6 {
+    margin-top: 6rem;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+.mt-3 {
+    margin-top: 3rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mt-1 {
+    margin-top: 1rem;
+}

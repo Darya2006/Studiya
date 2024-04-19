@@ -1,0 +1,14 @@
+.input{
+    &__label{
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        &_large{
+            border: 1px solid $border-accent;
+            padding: 3rem;
+            &:has(input:focus) {
+                border: 1px solid $bg-inverse;
+            }
+        }
+    }
+}

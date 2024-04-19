@@ -1,0 +1,22 @@
+.button-variants__size.about-dropdown{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid $border-primary-subdued-10;
+    background: $bg-primary;
+    width: fit-content;
+    button{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: -0.4px;
+    }
+    .color{
+        &_wh{
+            color: $text-primary;
+            background: none;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.card-img{
+    max-width: 1920px;
+    width: 100%;
+    &_basic,
+    &_wide{
+        display: flex;
+        align-items: flex-end;
+        img{
+            position: relative;
+            z-index: -2;
+        }
+        p{
+            position: absolute;
+            z-index: 2;
+            padding: 2rem;
+            font-size: 2rem;
+            color: $text-inverse;
+            font-weight: 600;
+            line-height: 115%;
+            letter-spacing: -0.06rem;
+        }
+    }
+}

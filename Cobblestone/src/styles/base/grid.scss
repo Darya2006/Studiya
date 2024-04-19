@@ -1,0 +1,26 @@
+.container{
+    margin: 0 15rem;
+    @include mobile {
+      margin: 0 1rem;
+    }
+    @include grid(4, 1.25rem);
+    @include mobile {
+      @include grid(2, 1rem);
+    }
+    &_grid6 {
+      @include grid(6, 1.25rem);
+      @include mobile {
+        @include grid(2, 1rem);
+      }
+    }
+}
+.container{
+  margin: 0 9rem;
+  @include mobile {
+    margin: 0 1rem;
+  }
+  @include grid(4, 0.75rem);
+  @include mobile {
+    @include grid(2, 1rem);
+  }
+}
